@@ -1,0 +1,25 @@
+agent_name: Agent
+agentic_framework: langchain
+llm_provider: unknown
+model: unknown
+system_prompt: "You are a helpful AI assistant."
+memory_enabled: False
+memory_type: conversation_history
+security_auth_type: api_key
+rate_limit: 60
+encryption: True
+content_filtering: True
+error_handling_ai_managed: False
+retry_attempts: 3
+retry_strategy: exponential
+timeout: 30
+circuit_breaker: False
+input_validation: True
+output_validation: True
+enabled_checkpoints: {}
+checkpoint_configs: {}
+validation_mode: strict
+failure_handling: {}
+explainability: True
+deployment_platform: gcp
+region: us-central1
